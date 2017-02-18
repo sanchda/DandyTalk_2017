@@ -1,5 +1,5 @@
-.cd:50;                                     / E[character sleep time] (ms)
-.ld:100;                                    / Line delay (ms)
+.cd:3;                                      / E[character sleep time] (ms)
+.ld:10;                                     / Line delay (ms)
 sleep:{:[x>0;`4:"sleep"," ",$x;_n]};        / Call system sleep command
 free:" !\"#$%&'()*+,-./:;<=>?[\\]^_`{|}~";  / Characters without delay
 td:{                                        / Type a character with delay
