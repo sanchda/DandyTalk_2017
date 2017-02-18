@@ -1,0 +1,27 @@
+\l deck
+B"-"
+C"Scaling"
+B"-"
+B" "
+B" "
+T"Latency Comparison Numbers"
+T"--------------------------"
+T"L1 cache reference                           0.5 ns"
+T"Branch mispredict                            5   ns"
+T"L2 cache reference                           7   ns"
+T"Mutex lock/unlock                           25   ns"
+T"Main memory reference                      100   ns"
+T"Compress 1K bytes with Zippy             3,000   ns"
+T"Send 1K bytes over 1 Gbps network       10,000   ns"
+T"Read 4K randomly from SSD*             150,000   ns"
+T"Read 1 MB sequentially from memory     250,000   ns"
+T"Round trip within same datacenter      500,000   ns"
+T"Read 1 MB sequentially from SSD*     1,000,000   ns"
+T"Disk seek                           10,000,000   ns"
+T"Read 1 MB sequentially from disk    20,000,000   ns"
+T"Send packet CA->Netherlands->CA    150,000,000   ns"
+B" "
+T"Source: https://gist.github.com/jboner/2841832"
+N[d[1]-25]
+3:h;
+_exit 0

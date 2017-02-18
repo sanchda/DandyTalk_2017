@@ -1,0 +1,26 @@
+\l deck
+B"-"
+C"Scaling"
+B"-"
+T"This is fragile!  Add just one more requirement;"
+T"suppose that customer demand or industry regulations force"
+T"the 1hr window to decrease by roughly 10% per year."
+B" "
+T"YEAR        GFlop/s     Max"
+T"2005        12          12"
+T"2006        19          42"
+T"2007        33          47"
+T"2008        54          64"
+T"2009        91          58"
+T"2010        154         85"
+T"2011        255         128"
+T"2012        428         224"
+T"2013        713         528"
+T"2014        1189        ??"
+T"2015        1981        ??"
+B" "
+B" "
+T"Definitely not going to work (on a single-socket server)"
+N[d[1]-24]
+3:h;
+_exit 0

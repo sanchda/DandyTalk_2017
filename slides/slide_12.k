@@ -1,0 +1,25 @@
+\l deck
+B"-"
+C"Big Data, Big Decisions"
+B"-"
+B" "
+B" "
+T"If you want to solve a problem using distributed systems,"
+T"you now have roughly 1+(n)(n-1)/2 problems."
+B" "
+T"And math is against you:"
+L"Data communication kills linear scaling"
+L"0.5*cost(supercomputer) \\approx cost(interconnects)"
+L"Amdahl's law (see also: Gustafson's law)"
+L"FLP Impossibility theorem"
+L"CAP theorem"
+B" "
+T"Also life.  You now need to know about, like:"
+L"Distributed stuff"
+L"Hardware stuff"
+L"Like, lots of languages or whatever"
+L"do you even API, bro?"
+L"Serializability, linearizability, locality"
+N[d[1]-23]
+3:h;
+_exit 0

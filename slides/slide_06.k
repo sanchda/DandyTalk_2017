@@ -1,0 +1,27 @@
+\l deck
+B"-"
+C"Scaling"
+B"-"
+B" "
+T"YEAR        Top Supercomputer       HPL Max             Worst SC HLP Max        Best Xeon HLP         Best Xeon"
+B"-"
+T"2005        DoE IBM BlueGene/L      136.8 TFlop/s       1.6   TFlop/s           12   GFlop/s           7041"
+T"2006        DoE IBM BlueGene/L      280.6               2.0                     42                    X5355"
+T"2007        DoE IBM BlueGene/L      280.6               4.0                     47                    X7350"
+T"2008        DoE Roadrunner          1026                9.0                     64                    X7460"
+T"2009        DoE Roadrunner          1026                17.1                    58                    W5590"
+T"2010        Nebula                  1271                24.7                    85                    X7560"
+T"2011        K Computer              8162                40.2                    128                 E3-1290"
+T"2012        ASC IBM BlueGene/Q      16320               60.8                    224                 E5-4650"
+T"2013        Tianhe-2                33860               96.6                    528                 E5-2697 v2*"
+T"2014        Tianhe-2                33860               133.7                   1012                E5-2699 v3*"
+T"2015        Tianhe-2                33860               164.8                   2627                E3-1280 v5*"
+T"2016        NRCPC                   93000               286.1                   **"
+B" "
+T"http://top500.org"
+T"http://www.intel.com/content/www/us/en/support/processors/000006779.html"
+T"*- compiled from other sources"
+T"**-benchmarks unreliable"
+N[d[1]-25]
+3:h;
+_exit 0
